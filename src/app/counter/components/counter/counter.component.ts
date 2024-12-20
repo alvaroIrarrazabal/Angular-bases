@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-counter',
+  templateUrl: './counter.component.html',
+  styleUrl: './counter.component.css'
 })
-export class AppComponent {
-  title = 'Primeras bases de angular';
-public counter :number = 10;
+export class CounterComponent {
+
+  public counter :number = 10;
 
  incraseBy():void{
   this.counter = this.counter +1;
@@ -20,4 +20,3 @@ public counter :number = 10;
 }
 
 }
-
